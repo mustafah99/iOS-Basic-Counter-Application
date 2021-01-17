@@ -30,6 +30,7 @@ struct ContentView: View {
                     }) {
                         Image(systemName:"plus")
                             .foregroundColor(/*@START_MENU_TOKEN@*/.white/*@END_MENU_TOKEN@*/)
+                            .padding(/*@START_MENU_TOKEN@*/.all, 30.0/*@END_MENU_TOKEN@*/)
                             .font(.system(size: 40))
                             
                             
@@ -45,7 +46,9 @@ struct ContentView: View {
                     }) {
                         Image(systemName:"minus")
                             .foregroundColor(/*@START_MENU_TOKEN@*/.white/*@END_MENU_TOKEN@*/)
+                            .padding(/*@START_MENU_TOKEN@*/.all, 15.0/*@END_MENU_TOKEN@*/)
                             .font(.system(size: 40))
+                            
                             
                             
                     }
@@ -58,6 +61,7 @@ struct ContentView: View {
                     }) {
                         Image(systemName:"arrow.counterclockwise")
                             .foregroundColor(/*@START_MENU_TOKEN@*/.white/*@END_MENU_TOKEN@*/)
+                            .padding(/*@START_MENU_TOKEN@*/.all, 15.0/*@END_MENU_TOKEN@*/)
                             .font(.system(size: 30))
                             
                             
